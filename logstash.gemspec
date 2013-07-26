@@ -71,6 +71,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency "rbnacl"                           #(MIT license)
   gem.add_runtime_dependency "sequel"                           #(MIT license)
   gem.add_runtime_dependency "jdbc-sqlite3"                      #(MIT license)
+  gem.add_runtime_dependency "rt_sphinx", ["0.0.7"]             #(MIT license)
 
   if RUBY_PLATFORM == 'java'
     gem.platform = RUBY_PLATFORM
